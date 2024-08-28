@@ -1,0 +1,59 @@
+{
+  "channels": [
+    {
+      "id": 1,
+      "channelName": "News 24/7",
+      "channelImage": "https://www.freevector.com/uploads/vector/preview/31304/large_1x_FreevectorAutumn-Fall-General-Forest-SceneryBackgroundMf0721_generated.jpg",
+      "channelLinks": [
+        {
+          "quality": "HD",
+          "playerType": "Native",
+          "url": "https://stream.news24-7.com/hd",
+          "contentHost": "news24-7.com"
+        },
+        {
+          "quality": "SD",
+          "playerType": "Auto",
+          "url": "https://stream.news24-7.com/sd",
+          "contentHost": "news24-7.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "channelName": "Sports Central",
+      "channelImage": "https://www.freevector.com/uploads/vector/preview/96782/vecteezyjohn-wick-illustrationas0423_generated.jpg",
+      "channelLinks": [
+        {
+          "quality": "4K",
+          "playerType": "Embed",
+          "url": "https://stream.sportscentral.com/4k",
+          "contentHost": "sportscentral.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "channelName": "Movie Classics",
+      "channelImage": "https://www.freevector.com/uploads/vector/preview/96765/VecteezyZelda-SimiliarOrEditorialArtwork-Illustration-CBS0423_generated.jpg",
+      "channelLinks": [
+        {
+          "quality": "HD",
+          "playerType": "Native",
+          "url": "https://stream.movieclassics.com/hd",
+          "contentHost": "movieclassics.com"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "title": "News",
+      "channelIds": [1]
+    },
+    {
+      "title": "Entertainment",
+      "channelIds": [2, 3]
+    }
+  ]
+}
